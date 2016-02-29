@@ -5,8 +5,8 @@
 //--------------------------------------------------------------------------
 
 $host = "localhost";
-$user = "FamCompas";
-$pass = "RfgT345-2)";
+$user = "F";
+$pass = "R)";
 $databaseName = "FamCompas";
 $con = mysql_connect($host, $user, $pass);
 $dbs = mysql_select_db($databaseName, $con);
@@ -333,8 +333,8 @@ if (isset($_GET['vraagID'])) {
 	$V32_1 = $_POST['aantal171'];
 	$V32_2 = $_POST['aantal172'];
 	$servername = "localhost";
-	$username = "FamCompas";
-	$password = "RfgT345-2)";
+	$username = "F";
+	$password = "R)";
 	$dbname = "FamCompas";
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	// Check connection
